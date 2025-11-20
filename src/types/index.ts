@@ -11,6 +11,15 @@ export interface Project {
   liveUrl?: string
   category: string
   featured: boolean
+  status?: 'completed' | 'in-progress' | 'planned'
+  role?: string
+  teamSize?: number
+  startDate?: Date
+  endDate?: Date
+  challenges?: string[]
+  solutions?: string[]
+  outcomes?: string[]
+  order?: number
   createdAt?: Date
 }
 
@@ -38,6 +47,10 @@ export interface Skill {
   icon?: string
   yearsOfExperience?: number
   featured: boolean
+  description?: string
+  projects?: string[]
+  order?: number
+  tags?: string[]
   createdAt?: Date
 }
 
