@@ -53,6 +53,9 @@ export interface Certification {
   description: string
   skills: string[]
   image?: string
+  status?: 'active' | 'expired' | 'in-progress'
+  featured?: boolean
+  order?: number
   createdAt?: Date
 }
 

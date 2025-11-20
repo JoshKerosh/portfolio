@@ -498,6 +498,8 @@ export async function GET() {
         issueDate: '2023-06',
         description: 'Certification demonstrating proficiency in C# programming language and .NET framework',
         skills: ['C#', '.NET', 'Object-Oriented Programming'],
+        status: 'active',
+        featured: true,
         order: 1,
       },
       {
@@ -507,6 +509,8 @@ export async function GET() {
         issueDate: '2023-09',
         description: 'Certification in SQL Server administration, optimization, and best practices',
         skills: ['SQL Server', 'Database Administration', 'Query Optimization'],
+        status: 'active',
+        featured: true,
         order: 2,
       },
       {
@@ -516,6 +520,8 @@ export async function GET() {
         issueDate: '2024-03',
         description: 'Professional certificate in data analysis, visualization, and statistical methods',
         skills: ['Data Analysis', 'Python', 'Statistics', 'Data Visualization'],
+        status: 'active',
+        featured: false,
         order: 3,
       },
     ]);
