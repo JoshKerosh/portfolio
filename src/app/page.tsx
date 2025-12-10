@@ -8,6 +8,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge'
 import { ArrowRight, Github, Linkedin, Mail, Code2 } from 'lucide-react'
 
+function helloWorld(): string {
+  return 'Hello World!'
+}
+
 async function getData() {
   try {
     await connectDB()
