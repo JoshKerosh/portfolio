@@ -85,7 +85,7 @@ Esta documentación describe la estructura completa y organizada de la base de d
 **Campos**:
 ```javascript
 {
-  degree: "Computer Science / Software Engineering",
+  degree: "Computer Engineering",
   institution: "Universidad",
   location: "San José, Costa Rica",
   fieldOfStudy: "Software Engineering",
